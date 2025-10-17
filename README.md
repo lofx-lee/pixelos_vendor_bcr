@@ -1,9 +1,10 @@
 ## Add In Rom
 
 Add This Line In device.mk
-
-$(call inherit-product, vendor/bcr/bcr.mk)
-
+```bash
+# Inhert Basic Call Recorder
+$(call inherit-product, vendor/xiaomi/bcr/bcr.mk)
+```
 # Basic Call Recorder
 
 ![latest release badge](https://img.shields.io/github/v/release/chenxiaolong/BCR?sort=semver)
@@ -11,7 +12,7 @@ $(call inherit-product, vendor/bcr/bcr.mk)
 
 ## Features
 
-* Supports Android 9 through 13
+* Supports Android 9 through 15
 * Supports output in various formats:
   * OGG/Opus - Lossy, smallest files, default on Android 10+
   * M4A/AAC - Lossy, smaller files, default on Android 9
